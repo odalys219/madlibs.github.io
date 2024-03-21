@@ -1,0 +1,108 @@
+@font-face {
+  font-family:"cookies";
+src: url("https://cdn.glitch.global/81ee2d2d-7a63-4ee2-af83-a1cf2c2d0924/Cookies.otf?v=1708017961505");
+font-style: normal;
+font-weight: 100;}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-blue: #10103b;
+  --light-grey: #e5e4e2;
+  --off-white: #f9f8f6;
+  --golden-yellow: #fecc4c;
+  --yellow: #ffcc4c;
+  --gold: #feac32;
+  --orange: #ffac33;
+  --dark-orange: #f89808;
+  --black: #000;
+}
+
+body {
+  padding: 10px 50px;
+ background: rgb(225,210,165);
+background: linear-gradient(0deg, rgba(225,210,165,1) 0%, rgba(99,52,6,1) 100%);
+}
+
+.main-title {
+  font-family: "cookies";
+  font-size: 40px;
+  text-align: center;
+  color: #e1d2a5;
+  padding: 40px 50px;
+}
+
+.selections-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 500px;
+  background-color: #e1d2a5;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.dropdown {
+  font-family: "cookies";
+  text-align: center;
+  margin: 10px auto 20px;
+  width: 300px;
+}
+
+.dropdown-text {
+  font-family: "cookies";
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  cursor: pointer;
+  width: 400px;
+  color: #e1d2a5;
+  background-color: #633406;
+  background-image: #633406;
+  border-color: #39210a;
+  border-width: 4px;
+  border-radius: 20px;
+  font-family: "cookies";
+  font-size: 1.8rem;
+  margin: 25px auto;
+}
+
+.btn:hover {
+  background-image:linear-gradient(var(#f0a8c7), var(#f0a8c7));
+}
+
+#madlib-text {
+  color:  #633406;
+  font-family: "cookies";
+  font-size: 25px;
+  text-align: center;
+  word-spacing: 15px;
+  line-height: 2;
+}
+.button {
+  background-color: #FF9138; /* Green */
+ border-radius: 12px;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  margin-right: 15px;
+  font-size: 16px;
+  font-family: "Comic Sans MS", 
+    sans-serif;font-size: 15px; 
+}
+.centered{text-align: center;}
+ellipse:hover{
+       fill:#FF9138}
+polygon:hover{
+       fill:#F50255
+     }
